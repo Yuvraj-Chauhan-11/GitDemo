@@ -12,4 +12,4 @@ class childimpl(Calculator):
 
 
 obj = childimpl()
-print(obj.getcompletedata())
+print(obj.getcompletedata()) test
