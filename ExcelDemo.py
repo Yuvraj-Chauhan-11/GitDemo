@@ -1,4 +1,4 @@
-import openpyxl
+import openpyxl #execl
 book = openpyxl.load_workbook("C:\\Users\\yuvra\\OneDrive\\Documents\\PythonDemo.xlsx")
 sheet = book.active
 cell = sheet.cell(row=1,column=2) # to read the excel value
